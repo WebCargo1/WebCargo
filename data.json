@@ -1,0 +1,442 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "E-commerce",
+      "icon": "fas fa-shopping-cart",
+      "count": 15,
+      "color": "#3b82f6",
+      "description": "Complete online stores and shopping platforms"
+    },
+    {
+      "id": 2,
+      "name": "Dashboard",
+      "icon": "fas fa-chart-bar",
+      "count": 12,
+      "color": "#10b981",
+      "description": "Admin panels and analytics dashboards"
+    },
+    {
+      "id": 3,
+      "name": "Real Estate",
+      "icon": "fas fa-home",
+      "count": 8,
+      "color": "#8b5cf6",
+      "description": "Property listing and real estate websites"
+    },
+    {
+      "id": 4,
+      "name": "Productivity",
+      "icon": "fas fa-check-square",
+      "count": 10,
+      "color": "#f59e0b",
+      "description": "Task management and productivity tools"
+    },
+    {
+      "id": 5,
+      "name": "Restaurant",
+      "icon": "fas fa-utensils",
+      "count": 6,
+      "color": "#ef4444",
+      "description": "Restaurant websites and ordering systems"
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "icon": "fas fa-book-open",
+      "count": 9,
+      "color": "#6366f1",
+      "description": "Learning management systems and educational platforms"
+    },
+    {
+      "id": 7,
+      "name": "Healthcare",
+      "icon": "fas fa-heart",
+      "count": 5,
+      "color": "#ec4899",
+      "description": "Medical and healthcare applications"
+    },
+    {
+      "id": 8,
+      "name": "Finance",
+      "icon": "fas fa-dollar-sign",
+      "count": 7,
+      "color": "#059669",
+      "description": "Financial and banking applications"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Modern E-commerce Platform",
+      "description": "A complete e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart, payment processing with Stripe, order tracking, and admin dashboard. The platform is fully responsive and optimized for performance with advanced SEO features and analytics integration.",
+      "shortDescription": "Complete e-commerce solution with React, Node.js, and Stripe integration",
+      "price": 299,
+      "originalPrice": 399,
+      "category": "E-commerce",
+      "tags": ["React", "Node.js", "PostgreSQL", "Stripe", "Redux"],
+      "images": [
+        "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4386368/pexels-photo-4386368.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://demo-ecommerce.example.com",
+      "seller": {
+        "id": 1,
+        "name": "Alex Chen",
+        "email": "alex@example.com",
+        "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "Senior full-stack developer with 8+ years of experience in React, Node.js, and modern web technologies.",
+        "joinDate": "2023-01-15",
+        "rating": 4.9,
+        "totalSales": 47
+      },
+      "features": [
+        "User authentication and authorization",
+        "Product catalog with search and filters",
+        "Shopping cart and wishlist functionality",
+        "Secure payment processing with Stripe",
+        "Order management and tracking system",
+        "Comprehensive admin dashboard",
+        "Email notifications and alerts",
+        "Mobile-responsive design",
+        "SEO optimization",
+        "Analytics integration"
+      ],
+      "technologies": ["React", "Node.js", "Express", "PostgreSQL", "Stripe API", "JWT", "Tailwind CSS", "Redux"],
+      "includesSourceCode": true,
+      "includesDocumentation": true,
+      "includesSupport": true,
+      "createdAt": "2024-01-10",
+      "updatedAt": "2024-01-15",
+      "views": 1247,
+      "likes": 89,
+      "status": "active",
+      "type": "website",
+      "deliveryTime": "3 days",
+      "revisions": 3
+    },
+    {
+      "id": 2,
+      "title": "Social Media Dashboard",
+      "description": "A comprehensive social media management dashboard that allows users to manage multiple social media accounts from one place. Built with Vue.js and Firebase, it includes analytics, post scheduling, engagement tracking, and team collaboration features. Perfect for agencies and businesses managing multiple social media accounts.",
+      "shortDescription": "Social media management dashboard with analytics and scheduling",
+      "price": 199,
+      "category": "Dashboard",
+      "tags": ["Vue.js", "Firebase", "Chart.js", "Social Media API"],
+      "images": [
+        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://social-dashboard.example.com",
+      "seller": {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "UI/UX designer and frontend developer specializing in modern, responsive web applications.",
+        "joinDate": "2023-03-20",
+        "rating": 4.8,
+        "totalSales": 32
+      },
+      "features": [
+        "Multi-platform social media integration",
+        "Advanced analytics and reporting",
+        "Post scheduling and automation",
+        "Team collaboration tools",
+        "Content calendar management",
+        "Engagement tracking and metrics",
+        "Custom branding options",
+        "Real-time notifications"
+      ],
+      "technologies": ["Vue.js", "Firebase", "Chart.js", "Twitter API", "Facebook API", "Instagram API"],
+      "includesSourceCode": true,
+      "includesDocumentation": true,
+      "includesSupport": false,
+      "createdAt": "2024-01-05",
+      "updatedAt": "2024-01-12",
+      "views": 892,
+      "likes": 67,
+      "status": "active",
+      "type": "project",
+      "deliveryTime": "5 days",
+      "revisions": 2
+    },
+    {
+      "id": 3,
+      "title": "Real Estate Website Template",
+      "description": "A beautiful, modern real estate website template with property listings, search functionality, agent profiles, and contact forms. Built with Next.js and styled with Tailwind CSS for optimal performance and SEO. Includes advanced filtering, map integration, and mobile-responsive design.",
+      "shortDescription": "Modern real estate website with property listings and search",
+      "price": 149,
+      "originalPrice": 199,
+      "category": "Real Estate",
+      "tags": ["Next.js", "Tailwind CSS", "SEO Optimized", "Responsive"],
+      "images": [
+        "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://realestate-template.example.com",
+      "seller": {
+        "id": 3,
+        "name": "Mike Rodriguez",
+        "email": "mike@example.com",
+        "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "E-commerce specialist with expertise in building scalable online stores and payment systems.",
+        "joinDate": "2023-02-10",
+        "rating": 4.7,
+        "totalSales": 28
+      },
+      "features": [
+        "Property listing pages with detailed information",
+        "Advanced search and filtering system",
+        "Agent profiles and contact information",
+        "Contact forms and inquiry management",
+        "Image galleries with lightbox functionality",
+        "Interactive maps integration",
+        "SEO optimized for search engines",
+        "Mobile responsive design",
+        "Property comparison tool",
+        "Mortgage calculator"
+      ],
+      "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript", "Vercel", "Google Maps API"],
+      "includesSourceCode": true,
+      "includesDocumentation": true,
+      "includesSupport": true,
+      "createdAt": "2024-01-08",
+      "updatedAt": "2024-01-18",
+      "views": 634,
+      "likes": 45,
+      "status": "active",
+      "type": "website",
+      "deliveryTime": "2 days",
+      "revisions": 5
+    },
+    {
+      "id": 4,
+      "title": "Task Management App",
+      "description": "A powerful task management application with team collaboration features. Built with React and Express.js, it includes project boards, task assignments, time tracking, and real-time notifications. Perfect for teams looking to improve productivity and project management.",
+      "shortDescription": "Team collaboration task management app with real-time features",
+      "price": 179,
+      "category": "Productivity",
+      "tags": ["React", "Express.js", "Socket.io", "MongoDB"],
+      "images": [
+        "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://taskmanager.example.com",
+      "seller": {
+        "id": 1,
+        "name": "Alex Chen",
+        "email": "alex@example.com",
+        "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "Senior full-stack developer with 8+ years of experience in React, Node.js, and modern web technologies.",
+        "joinDate": "2023-01-15",
+        "rating": 4.9,
+        "totalSales": 47
+      },
+      "features": [
+        "Kanban-style project boards",
+        "Task assignments and tracking",
+        "Team collaboration tools",
+        "Time tracking functionality",
+        "Real-time notifications",
+        "File attachments and comments",
+        "Progress reporting and analytics",
+        "Custom workflows",
+        "Team member permissions",
+        "Calendar integration"
+      ],
+      "technologies": ["React", "Express.js", "MongoDB", "Socket.io", "JWT", "Material-UI"],
+      "includesSourceCode": true,
+      "includesDocumentation": false,
+      "includesSupport": true,
+      "createdAt": "2024-01-12",
+      "updatedAt": "2024-01-20",
+      "views": 756,
+      "likes": 52,
+      "status": "active",
+      "type": "project",
+      "deliveryTime": "4 days",
+      "revisions": 3
+    },
+    {
+      "id": 5,
+      "title": "Restaurant Website & Ordering System",
+      "description": "Complete restaurant website with online ordering system. Features menu management, online reservations, order tracking, and payment integration. Perfect for restaurants looking to expand their online presence and increase revenue through online orders.",
+      "shortDescription": "Complete restaurant website with online ordering and reservations",
+      "price": 249,
+      "category": "Restaurant",
+      "tags": ["React", "Node.js", "Stripe", "Calendar"],
+      "images": [
+        "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://restaurant-demo.example.com",
+      "seller": {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "UI/UX designer and frontend developer specializing in modern, responsive web applications.",
+        "joinDate": "2023-03-20",
+        "rating": 4.8,
+        "totalSales": 32
+      },
+      "features": [
+        "Online menu with categories and customization",
+        "Order management system",
+        "Table reservation system",
+        "Payment processing integration",
+        "Customer reviews and ratings",
+        "Staff management dashboard",
+        "Analytics and reporting",
+        "Email notifications",
+        "Mobile ordering app",
+        "Loyalty program integration"
+      ],
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe", "Socket.io"],
+      "includesSourceCode": true,
+      "includesDocumentation": true,
+      "includesSupport": true,
+      "createdAt": "2024-01-06",
+      "updatedAt": "2024-01-14",
+      "views": 923,
+      "likes": 71,
+      "status": "active",
+      "type": "website",
+      "deliveryTime": "6 days",
+      "revisions": 4
+    },
+    {
+      "id": 6,
+      "title": "Learning Management System",
+      "description": "Comprehensive LMS platform for online education. Includes course creation, student enrollment, progress tracking, quizzes, and certificates. Built with modern technologies for scalability and includes video streaming, interactive content, and advanced analytics.",
+      "shortDescription": "Complete LMS platform for online education and course management",
+      "price": 399,
+      "originalPrice": 499,
+      "category": "Education",
+      "tags": ["React", "Node.js", "MongoDB", "Video Streaming"],
+      "images": [
+        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "demoUrl": "https://lms-demo.example.com",
+      "seller": {
+        "id": 3,
+        "name": "Mike Rodriguez",
+        "email": "mike@example.com",
+        "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+        "role": "seller",
+        "bio": "E-commerce specialist with expertise in building scalable online stores and payment systems.",
+        "joinDate": "2023-02-10",
+        "rating": 4.7,
+        "totalSales": 28
+      },
+      "features": [
+        "Course creation and management tools",
+        "Student enrollment and management",
+        "Video streaming and content delivery",
+        "Interactive quizzes and assessments",
+        "Progress tracking and analytics",
+        "Certificate generation and management",
+        "Discussion forums and messaging",
+        "Mobile app support",
+        "Payment integration for course sales",
+        "Advanced reporting dashboard"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "AWS S3", "Socket.io", "PDF Generation"],
+      "includesSourceCode": true,
+      "includesDocumentation": true,
+      "includesSupport": true,
+      "createdAt": "2024-01-03",
+      "updatedAt": "2024-01-16",
+      "views": 1156,
+      "likes": 94,
+      "status": "active",
+      "type": "project",
+      "deliveryTime": "7 days",
+      "revisions": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Chen",
+      "email": "alex@example.com",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "role": "seller",
+      "bio": "Senior full-stack developer with 8+ years of experience in React, Node.js, and modern web technologies. Passionate about creating scalable and user-friendly applications.",
+      "joinDate": "2023-01-15",
+      "rating": 4.9,
+      "totalSales": 47,
+      "skills": ["React", "Node.js", "PostgreSQL", "MongoDB", "AWS", "Docker"],
+      "languages": ["English", "Mandarin"],
+      "responseTime": "1 hour",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "role": "seller",
+      "bio": "UI/UX designer and frontend developer specializing in modern, responsive web applications. Expert in creating beautiful and functional user interfaces.",
+      "joinDate": "2023-03-20",
+      "rating": 4.8,
+      "totalSales": 32,
+      "skills": ["Vue.js", "React", "Figma", "Adobe XD", "Tailwind CSS", "SASS"],
+      "languages": ["English", "Spanish"],
+      "responseTime": "2 hours",
+      "location": "Austin, TX"
+    },
+    {
+      "id": 3,
+      "name": "Mike Rodriguez",
+      "email": "mike@example.com",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "role": "seller",
+      "bio": "E-commerce specialist with expertise in building scalable online stores and payment systems. Focused on creating high-converting e-commerce solutions.",
+      "joinDate": "2023-02-10",
+      "rating": 4.7,
+      "totalSales": 28,
+      "skills": ["Next.js", "Shopify", "WooCommerce", "Stripe", "PayPal", "SEO"],
+      "languages": ["English", "Portuguese"],
+      "responseTime": "3 hours",
+      "location": "Miami, FL"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "user": "Jennifer Smith",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "comment": "Amazing platform! Found exactly what I needed for my business. The quality of projects is outstanding and the sellers are very professional.",
+      "project": "E-commerce Platform",
+      "date": "2024-01-20"
+    },
+    {
+      "id": 2,
+      "user": "David Wilson",
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "comment": "Saved me months of development time. The documentation was excellent and the support was top-notch. Highly recommended!",
+      "project": "Task Management App",
+      "date": "2024-01-18"
+    },
+    {
+      "id": 3,
+      "user": "Lisa Chen",
+      "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "rating": 5,
+      "comment": "Perfect solution for our restaurant. The online ordering system increased our revenue by 40%. Great investment!",
+      "project": "Restaurant Website",
+      "date": "2024-01-15"
+    }
+  ]
+}
