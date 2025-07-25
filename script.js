@@ -4,7 +4,7 @@ let currentUser = null;
 
 // Mock data
 const categories = [
-    { id: 1, name: 'E-commerce', icon: 'fas fa-shopping-cart', count: 15, color: '#3b82f6' },
+   { id: 1, name: 'E-commerce', icon: 'fas fa-shopping-cart', count: 15, image: 'image.png' },
     { id: 2, name: 'Dashboard', icon: 'fas fa-chart-bar', count: 12, color: '#10b981' },
     { id: 3, name: 'Real Estate', icon: 'fas fa-home', count: 8, color: '#8b5cf6' },
     { id: 4, name: 'Productivity', icon: 'fas fa-check-square', count: 10, color: '#f59e0b' },
